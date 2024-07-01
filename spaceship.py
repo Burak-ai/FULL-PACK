@@ -1,14 +1,12 @@
 #--------------------------------------------------------
 #--------------------------------------------------------
-# miniproject 7 - Spaceship
+#Spaceship
 import simplegui
 import math
 import random
 
 #--------------------------------------------------------
 
-
-# helper functions and classes
 
 
 # class which contains information for an image
@@ -80,16 +78,6 @@ missile_sound = simplegui.load_sound("http://commondatastorage.googleapis.com/co
 missile_sound.set_volume(.5)
 ship_thrust_sound = simplegui.load_sound("http://commondatastorage.googleapis.com/codeskulptor-assets/sounddogs/thrust.mp3")
 explosion_sound = simplegui.load_sound("http://commondatastorage.googleapis.com/codeskulptor-assets/sounddogs/explosion.mp3")
-
-# alternative upbeat soundtrack by composer and former IIPP student Emiel Stopler
-# please do not redistribute without permission from Emiel at http://www.filmcomposer.nl
-#soundtrack = simplegui.load_sound("https://storage.googleapis.com/codeskulptor-assets/ricerocks_theme.mp3")
-
-
-
-# -----------------------------------------------------------------------------
-# -----------------------------------------------------------------------------
-# -----------------------------------------------------------------------------
 
 
 
